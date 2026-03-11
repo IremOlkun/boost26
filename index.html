@@ -494,12 +494,12 @@ function renderSetup() {
       <!-- QR CODES -->
       <div class="qr-pair">
         <div class="qr-box">
-          <h3>Startup QR</h3>
+          <h3>Startup asks Mentor</h3>
           <div class="qr-img" id="qr-startup"></div>
           <div class="qr-url" id="url-startup"></div>
         </div>
         <div class="qr-box">
-          <h3>Mentor QR</h3>
+          <h3>Mentor Asks Startup</h3>
           <div class="qr-img" id="qr-mentor"></div>
           <div class="qr-url" id="url-mentor"></div>
         </div>
@@ -547,7 +547,7 @@ function renderSetup() {
       <!-- QUESTIONS -->
       <div class="setup-grid">
         <div class="panel">
-          <h2>Startup Questions</h2>
+          <h2>Startup asks Mentor</h2>
           <div class="field">
             <label>One question per line</label>
             <textarea id="q-startup">${QUESTIONS.startup.join('\n')}</textarea>
@@ -555,7 +555,7 @@ function renderSetup() {
           <div style="font-size:11px;color:var(--text-muted);">After editing, copy the updated file with the new questions embedded.</div>
         </div>
         <div class="panel">
-          <h2>Mentor Questions</h2>
+          <h2>Mentor asks Startup</h2>
           <div class="field">
             <label>One question per line</label>
             <textarea id="q-mentor">${QUESTIONS.mentor.join('\n')}</textarea>
